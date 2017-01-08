@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Plugins>
+  
+  <PluginGroup type="MeterProtocol" des="电能表通信协议">
+    <Plugin >
+      <Dll value="DLT645.dll"/>
+    </Plugin>
+  </PluginGroup>
+
+  <PluginGroup type="Connection" des="连接方法">
+    <Plugin>
+      <Dll value="SerialPort.dll"/>
+    </Plugin>
+  </PluginGroup>
+  
+</Plugins>

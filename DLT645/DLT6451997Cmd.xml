@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DLT645Cmd type="1997">
+  <Cmd>
+    <Address value="" enable="true"/>
+    <Cmd value="1"  enable="true"/>
+    <DI value="" enable="true" />
+    <UserCode value=""  enable="false"/>
+    <Password value=""  enable="false"/>
+    <Data value=""  enable="false"/>
+    <Name value="读数据(0x01)"  enable="true"/>
+  </Cmd>
+  <Cmd>
+    <Address value="" enable="true"/>
+    <Cmd value="4"  enable="true"/>
+    <DI value="" enable="true" />
+    <UserCode value="00000000"  enable="true"/>
+    <Password value="04000000"  enable="true"/>
+    <Data value=""  enable="true"/>
+    <Name value="写数据(0x04)"  enable="true"/>
+  </Cmd>
+</DLT645Cmd>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DLT645DI type="1997">
+  <DIGroup group="电能量数据">
+    <DI value="9010" des="当前正向有功总电量"/>
+    <DI value="9011" des="当前正向有功第1费率电量"/>
+    <DI value="901F" des="当前正向有功所有费率电量数据块"/>
+  </DIGroup>
+  <DIGroup group="参变量数据标识表">
+    <DI value="C010" des="日期及周次"/>
+    <DI value="C011" des="时间"/>
+  </DIGroup>
+</DLT645DI>

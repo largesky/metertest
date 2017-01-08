@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\MeterProtocol">
+      <UniqueIdentifier>{d12d6725-de00-4102-a944-8c1ccf79a823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Plugin">
+      <UniqueIdentifier>{9c1463de-3dbe-4d29-b7b5-a9b588677c02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Plugin">
+      <UniqueIdentifier>{1c888f2d-c94c-4bc7-881d-08bc8a4d1fa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Config">
+      <UniqueIdentifier>{5c82436f-6d0c-465b-9ded-2c2b68dce465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Connection">
+      <UniqueIdentifier>{98405678-eb91-4adc-85af-9361b138cac1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Tool">
+      <UniqueIdentifier>{68829e94-6911-44d9-8ba5-b654a729dc3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Connection">
+      <UniqueIdentifier>{7baec4a6-6d2b-49af-aaa6-347390f29497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MeterProtocol">
+      <UniqueIdentifier>{19802432-04e5-4014-870f-3780ddfda9ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\File">
+      <UniqueIdentifier>{38dea52f-e7d3-4e76-83df-562b55662877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\File">
+      <UniqueIdentifier>{4da8cced-a5c7-449a-a8c9-4b1cf6139744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\XML">
+      <UniqueIdentifier>{ba1d8a2e-c191-4bc4-93cd-3f71ae0d2285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\XML">
+      <UniqueIdentifier>{7538f739-9603-41b2-8789-71be9cc7cbaf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\MeterBase\MeterBaseComm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\MeterBase\Plugin.h">
+      <Filter>头文件\Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\MeterBase\PluginManager.h">
+      <Filter>头文件\Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\MeterBase\MeterProtocol.h">
+      <Filter>头文件\MeterProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\MeterBase\MeterProtocolManager.h">
+      <Filter>头文件\MeterProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\MeterBase\Connection.h">
+      <Filter>头文件\Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\MeterBase\KeyValueSelecter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\MeterBase\ItemManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\MeterBase\MeterBaseAll.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\MeterBase\ConnectionManager.h">
+      <Filter>头文件\Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\MeterBase\FileHelper.h">
+      <Filter>头文件\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\MeterBase\XmlHelper.h">
+      <Filter>头文件\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\MeterBase\MeterBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MeterBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MeterBaseComm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Plugin.cpp">
+      <Filter>源文件\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="PluginManger.cpp">
+      <Filter>源文件\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="Connection.cpp">
+      <Filter>源文件\Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="MeterProtocol.cpp">
+      <Filter>源文件\MeterProtocol</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyValueSelector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectionManager.cpp">
+      <Filter>源文件\Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="MeterProtocolManager.cpp">
+      <Filter>源文件\MeterProtocol</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>源文件\File</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlHelper.cpp">
+      <Filter>源文件\XML</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MeterBase.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Plugins.xml">
+      <Filter>源文件\Config</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
